@@ -14,11 +14,33 @@ body {
 }
 
 img {
-    width: 100px;
+    width: 300px;
+    border-radius: 50px;
 }
 
 .HERO {
     background-image: url("https://images.unsplash.com/photo-1470082719408-b2843ab5c9ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1933&q=80");
     background-size: cover;
-    padding: 100px;
+    padding: 300px;
+    margin: 0px;
+}
+
+.sportsdad {
+    background-color:  yellow;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.sports{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.guide {
+    display: flex;
+    border-bottom: 5px solid black;
+    width:  400px;
+    margin: 10px auto;
+    background-color: saddlebrown;
 }
